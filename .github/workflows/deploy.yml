@@ -32,7 +32,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3  # Action to deploy to GitHub Pages
         with:
-          github_token: ${{ secrets.GH_TOKEN }}  # Use a Personal Access Token (PAT) named GH_TOKEN
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Use a Personal Access Token (PAT) named GH_TOKEN
           publish_dir: ./dist  # The directory where Vite outputs the build files
           user_name: 'github-actions'  # GitHub user name for the deploy commit
           user_email: 'github-actions@users.noreply.github.com'  # GitHub user email for the commit
