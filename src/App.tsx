@@ -1,7 +1,6 @@
 import Alert from "./components/Alert";
 import Footer from "./components/layout/Footer";
 import { ComponentDetails } from "./types";
-import {Fragment} from "react";
 import { AlertTriangle, Ban, CheckCheck, Info } from "lucide-react";
 
 function App() {

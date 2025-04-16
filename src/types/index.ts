@@ -15,5 +15,5 @@ export interface AlertItem {
   description: ReactNode;
 }
 
-// Interface for the entire array (optional but useful for documentation)
-export interface ComponentDetails extends Array<AlertItem> {}
+// Type alias for an array of AlertItem objects (helps with readability and reuse)
+export type ComponentDetails = AlertItem[];
