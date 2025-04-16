@@ -10,9 +10,9 @@ export type AlertType =
 // Interface for each alert item
 export interface AlertItem {
   type: AlertType;
-  icon: ReactNode;  // JSX.Element also works
+  icon: ReactNode;  // Can be a Lucide icon or any JSX element
   title: string;
-  description: ReactNode;
+  description: ReactNode | string;  // Supports plain text or JSX
 }
 
 // Type alias for an array of AlertItem objects (helps with readability and reuse)

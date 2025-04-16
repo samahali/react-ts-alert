@@ -1,10 +1,10 @@
 import { X } from "lucide-react";
 import "./index.scss";
 import { ReactNode } from "react";
-import { AlertTypes } from "../../types";
+import { AlertType } from "../../types";
 
 interface IProps {
-  type: AlertTypes;
+  type: AlertType;
   icon: ReactNode;
   title: string;
   description?: string;
