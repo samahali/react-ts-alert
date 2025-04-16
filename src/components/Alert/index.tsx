@@ -1,13 +1,9 @@
 import { X } from "lucide-react";
-import "./index.scss";
 import { ReactNode } from "react";
-import { AlertType } from "../../types";
+import { AlertItem } from "../../types";
+import "./index.scss";
 
-interface IProps {
-  type: AlertType;
-  icon: ReactNode;
-  title: string;
-  description?: string;
+interface IProps extends AlertItem{
   children?: ReactNode;
 }
 interface IAlertProps extends IProps {
