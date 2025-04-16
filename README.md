@@ -8,6 +8,12 @@ This project showcases a set of flexible and reusable alert components with supp
 
 ---
 
+## Live Demo
+
+To see it live  [click here](https://samahali.github.io/react-ts-alert/)
+
+---
+
 ## ✨ Features
 
 ### 🎨 Multiple Alert Types
